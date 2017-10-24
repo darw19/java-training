@@ -8,7 +8,7 @@ public class GameManager {
     public void fight( Character c1, Character c2) throws InterruptedException {
         DataFactory dataFactory = new DataFactory();
 
-        while (c1.getHp() > 0 && c2.getHp() > 0) {
+        while (c1.isAlive() && c2.isAlive()) {
             int nextKickBy = dataFactory.getNumberBetween(0,2);
             if (nextKickBy == 0) {
                 System.out.println(c1.getClass() + " kicks " + c2.getClass());

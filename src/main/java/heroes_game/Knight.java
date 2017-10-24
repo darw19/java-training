@@ -4,7 +4,7 @@ import org.fluttercode.datafactory.impl.DataFactory;
 
 public class Knight extends Character {
     private int lowRange = 2;
-    private int highRange = 12;
+    private int highRange = 13;
     public Knight() {
         DataFactory dataFactory = new DataFactory();
         hp = dataFactory.getNumberBetween(lowRange, highRange);

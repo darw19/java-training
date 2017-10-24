@@ -5,7 +5,7 @@ import org.fluttercode.datafactory.impl.DataFactory;
 
 public class King extends Character {
     private int lowRange = 5;
-    private int highRange = 15;
+    private int highRange = 16;
     public King() {
         DataFactory dataFactory = new DataFactory();
         hp = dataFactory.getNumberBetween(lowRange, highRange);
