@@ -27,6 +27,10 @@ public class GuessGame {
                 }
             } while(!check);
             guessCount++;
+            if (guess != target) {
+                String hint = guess < target ? "Greater" : "Smaller";
+                JOptionPane.showMessageDialog(null, hint, "Hint", JOptionPane.INFORMATION_MESSAGE);
+            }
         }
         double score = max / guessCount;
 
