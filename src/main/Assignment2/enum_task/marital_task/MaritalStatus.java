@@ -1,7 +1,10 @@
 package enum_task.marital_task;
 
 public enum MaritalStatus {
-    SINGLE(1, "single"), MARRIED(2, "married"), DIVORCED(3, "divorced"), WIDOW(4, "widow");
+    SINGLE(1, "single"),
+    MARRIED(2, "married"),
+    DIVORCED(3, "divorced"),
+    WIDOW(4, "widow");
 
     private final int code;
     private final String desc;
