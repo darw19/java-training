@@ -4,9 +4,7 @@ import org.fluttercode.datafactory.impl.DataFactory;
 import java.lang.reflect.Field;
 import lombok.SneakyThrows;
 
-/**
- * Created by bolshanetskyi on 04.11.17.
- */
+
 public class RandomIntConfigurator  {
 
     @SneakyThrows
